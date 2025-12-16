@@ -1,157 +1,30 @@
-2023-05-03 15:40:18.630  INFO 13164 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 13164 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
-2023-05-03 15:40:18.634  INFO 13164 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
-2023-05-03 15:40:18.690  INFO 13164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-05-03 15:40:18.690  INFO 13164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-05-03 15:40:19.496  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-05-03 15:40:19.499  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-05-03 15:40:19.527  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-2023-05-03 15:40:20.393  INFO 13164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-05-03 15:40:20.406  INFO 13164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-05-03 15:40:20.406  INFO 13164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2023-05-03 15:40:20.652  INFO 13164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-05-03 15:40:20.653  INFO 13164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1961 ms
-2023-05-03 15:40:22.816  INFO 13164 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-05-03 15:40:24.045  INFO 13164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-05-03 15:40:24.133  INFO 13164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-05-03 15:40:24.188  INFO 13164 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 6.19 seconds (JVM running for 7.766)
-2023-05-03 15:40:45.019  INFO 13164 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-03 15:40:45.019  INFO 13164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-05-03 15:40:45.021  INFO 13164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-05-03 15:40:45.074  INFO 13164 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 15:40:45.171  INFO 13164 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-05-03 15:40:45.472  INFO 13164 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-05-03 15:40:45.676  INFO 13164 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 15:40:46.485  INFO 13164 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 15:40:46.521  INFO 13164 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 15:41:42.942  INFO 13164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-05-03 15:41:42.960  INFO 13164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-05-03 16:00:33.473  INFO 31156 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 31156 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
-2023-05-03 16:00:33.476  INFO 31156 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
-2023-05-03 16:00:33.534  INFO 31156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-05-03 16:00:33.534  INFO 31156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-05-03 16:00:34.346  INFO 31156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-05-03 16:00:34.350  INFO 31156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-05-03 16:00:34.380  INFO 31156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-2023-05-03 16:00:35.174  INFO 31156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-05-03 16:00:35.183  INFO 31156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-05-03 16:00:35.183  INFO 31156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2023-05-03 16:00:35.381  INFO 31156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-05-03 16:00:35.382  INFO 31156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1847 ms
-2023-05-03 16:00:36.485  INFO 31156 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-05-03 16:00:37.024  INFO 31156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-05-03 16:00:37.078  INFO 31156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-05-03 16:00:37.089  INFO 31156 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 4.379 seconds (JVM running for 6.175)
-2023-05-03 16:00:45.073  INFO 31156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-03 16:00:45.074  INFO 31156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-05-03 16:00:45.075  INFO 31156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-05-03 16:00:45.112  INFO 31156 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 16:00:45.183  INFO 31156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-05-03 16:00:45.319  INFO 31156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-05-03 16:00:45.407  INFO 31156 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 16:01:15.977  INFO 31156 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
-2023-05-03 16:01:16.072  INFO 31156 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 16:01:16.794  INFO 31156 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
-2023-05-03 16:01:16.805  INFO 31156 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog::commentList
-2023-05-03 16:02:22.129  INFO 31156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-05-03 16:02:22.140  INFO 31156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-05-03 16:02:35.482  INFO 25876 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 25876 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
-2023-05-03 16:02:35.484  INFO 25876 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
-2023-05-03 16:02:35.538  INFO 25876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-05-03 16:02:35.539  INFO 25876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-05-03 16:02:36.303  INFO 25876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-05-03 16:02:36.305  INFO 25876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-05-03 16:02:36.330  INFO 25876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
-2023-05-03 16:02:37.467  INFO 25876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-05-03 16:02:37.479  INFO 25876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-05-03 16:02:37.480  INFO 25876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2023-05-03 16:02:37.878  INFO 25876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-05-03 16:02:37.879  INFO 25876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2340 ms
-2023-05-03 16:02:39.028  INFO 25876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-05-03 16:02:39.546  INFO 25876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-05-03 16:02:39.587  INFO 25876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-05-03 16:02:39.599  INFO 25876 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 4.692 seconds (JVM running for 6.515)
-2023-05-03 16:02:45.064  INFO 25876 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-03 16:02:45.064  INFO 25876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-05-03 16:02:45.065  INFO 25876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-05-03 16:02:45.106  INFO 25876 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 16:02:45.183  INFO 25876 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-05-03 16:02:45.325  INFO 25876 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-05-03 16:02:45.408  INFO 25876 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 16:02:47.537  INFO 25876 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
-2023-05-03 16:02:47.655  INFO 25876 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 16:02:48.459  INFO 25876 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
-2023-05-03 16:02:48.468  INFO 25876 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog::commentList
-2023-05-03 16:04:53.146  INFO 25876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-05-03 16:04:53.160  INFO 25876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-05-03 22:44:15.546  INFO 4596 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 4596 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
-2023-05-03 22:44:15.548  INFO 4596 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
-2023-05-03 22:44:15.619  INFO 4596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-05-03 22:44:15.620  INFO 4596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-05-03 22:44:16.775  INFO 4596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-05-03 22:44:16.780  INFO 4596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-05-03 22:44:16.824  INFO 4596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
-2023-05-03 22:44:18.414  INFO 4596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-05-03 22:44:18.426  INFO 4596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-05-03 22:44:18.427  INFO 4596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2023-05-03 22:44:18.686  INFO 4596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-05-03 22:44:18.687  INFO 4596 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3066 ms
-2023-05-03 22:44:19.787  INFO 4596 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-05-03 22:44:20.343  INFO 4596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-05-03 22:44:20.386  INFO 4596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-05-03 22:44:20.397  INFO 4596 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 5.524 seconds (JVM running for 7.803)
-2023-05-03 22:44:32.030  INFO 4596 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-03 22:44:32.031  INFO 4596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-05-03 22:44:32.034  INFO 4596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-05-03 22:44:32.156  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 22:44:32.505  INFO 4596 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-05-03 22:44:32.883  INFO 4596 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-05-03 22:44:33.308  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 22:44:37.803  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 22:44:37.812  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 22:44:44.725  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 22:44:44.742  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 22:47:47.202  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 22:47:47.206  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 22:47:48.569  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 22:47:48.584  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 22:48:20.129  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 22:48:20.151  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 22:56:58.052  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 22:56:58.055  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 22:56:59.939  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 22:56:59.942  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 22:57:09.734  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
-2023-05-03 22:57:09.757  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : archives
-2023-05-03 22:57:10.766  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 22:57:10.770  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 22:57:11.670  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
-2023-05-03 22:57:11.676  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : archives
-2023-05-03 22:57:12.817  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 22:57:12.821  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 22:57:13.926  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 22:57:13.929  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 22:57:18.381  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 22:57:18.393  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 22:58:37.124  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 22:58:37.138  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 22:58:39.655  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/blog/2', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[2, {}]}
-2023-05-03 22:58:39.716  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 22:58:45.779  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
-2023-05-03 22:58:45.786  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 22:58:46.414  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
-2023-05-03 22:58:46.419  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog::commentList
-2023-05-03 22:58:58.401  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/blog/2', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[2, {}]}
-2023-05-03 22:58:58.414  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 22:59:56.841  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
-2023-05-03 22:59:56.842  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : about
-2023-05-03 23:06:27.954  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:06:27.967  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:09:01.832  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:09:01.846  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:09:03.855  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
-2023-05-03 23:09:03.863  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:09:33.395  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs/3/input', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@eee6928, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
-2023-05-03 23:09:33.405 ERROR 4596 --- [http-nio-8080-exec-1] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs/3/input, Exception: {}
+2025-12-16 11:04:23.409  INFO 12844 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 12844 (D:\Codes\web\blog\target\classes started by xxxrp in D:\Codes\web\blog)
+2025-12-16 11:04:23.415  INFO 12844 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2025-12-16 11:04:23.458  INFO 12844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-16 11:04:23.458  INFO 12844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-16 11:04:24.250  INFO 12844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-12-16 11:04:24.253  INFO 12844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-16 11:04:24.287  INFO 12844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2025-12-16 11:04:25.055  INFO 12844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-16 11:04:25.063  INFO 12844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-16 11:04:25.063  INFO 12844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2025-12-16 11:04:25.219  INFO 12844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-16 11:04:25.220  INFO 12844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1762 ms
+2025-12-16 11:04:26.160  INFO 12844 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-12-16 11:04:26.603  INFO 12844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-16 11:04:26.667  INFO 12844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-16 11:04:26.679  INFO 12844 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 3.739 seconds (JVM running for 5.369)
+2025-12-16 11:04:40.369  INFO 12844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-16 11:04:40.369  INFO 12844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-16 11:04:40.369  INFO 12844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-12-16 11:04:40.416  INFO 12844 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 11:04:40.528  INFO 12844 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-16 11:04:40.733  INFO 12844 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-16 11:04:40.887  INFO 12844 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 11:04:46.945  INFO 12844 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 11:04:46.977  INFO 12844 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 11:05:39.811  INFO 12844 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs;jsessionid=AA3BA76411D853BEFD64D9ECB9D332AF', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@505e996e, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
+2025-12-16 11:05:39.815 ERROR 12844 --- [http-nio-8080-exec-4] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs;jsessionid=AA3BA76411D853BEFD64D9ECB9D332AF, Exception: {}
 
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
@@ -165,15 +38,14 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
-	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
-	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
-	at com.xrp.blog.service.RedisService.queryWithPassThrough(CacheClient.java:85)
-	at com.xrp.blog.service.impl.BlogServiceImpl.getBlog(BlogServiceImpl.java:36)
+	at org.springframework.data.redis.core.RedisTemplate.keys(RedisTemplate.java:895)
+	at com.xrp.blog.service.RedisService.queryAll(CacheClient.java:52)
+	at com.xrp.blog.service.impl.BlogServiceImpl.getAllBlog(BlogServiceImpl.java:46)
 	at com.xrp.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$8db87405.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$db7880c0.getBlog(<generated>)
-	at com.xrp.blog.controller.admin.BlogController.toEdit(BlogController.java:70)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$18e61409.getAllBlog(<generated>)
+	at com.xrp.blog.controller.admin.BlogController.blogs(BlogController.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -227,7 +99,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
 	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
-	... 68 common frames omitted
+	... 67 common frames omitted
 Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
 	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
 	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
@@ -246,7 +118,7 @@ Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.16
 	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
 	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
 	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
-	... 69 common frames omitted
+	... 68 common frames omitted
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.138.129:6379
 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
 	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
@@ -259,9 +131,9 @@ Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	... 1 common frames omitted
 
-2023-05-03 23:09:33.407  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs/3/input, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
-2023-05-03 23:09:33.407  WARN 4596 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
-2023-05-03 23:09:33.419 ERROR 4596 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+2025-12-16 11:05:39.815  INFO 12844 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs;jsessionid=AA3BA76411D853BEFD64D9ECB9D332AF, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
+2025-12-16 11:05:39.823  WARN 12844 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
+2025-12-16 11:05:39.842 ERROR 12844 --- [http-nio-8080-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-4] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
 
 org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
@@ -354,7 +226,7 @@ Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E:
 	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
 	... 72 common frames omitted
 
-2023-05-03 23:09:33.422 ERROR 4596 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
+2025-12-16 11:05:39.845 ERROR 12844 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
 
 org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
 	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
@@ -438,8 +310,92 @@ org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property o
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
 
-2023-05-03 23:09:43.403  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs/3/input', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@131644b3, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
-2023-05-03 23:09:43.405 ERROR 4596 --- [http-nio-8080-exec-3] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs/3/input, Exception: {}
+2025-12-16 11:26:59.614  WARN 12844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s416ms538µs100ns).
+2025-12-16 11:28:17.529  WARN 12844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s916ms185µs700ns).
+2025-12-16 11:28:52.031  INFO 12844 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 11:28:52.086  INFO 12844 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 11:29:26.036  INFO 12844 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/blog/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[14, {}]}
+2025-12-16 11:29:26.167  INFO 12844 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog
+2025-12-16 11:29:47.212  INFO 12844 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/comments/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[14, {}]}
+2025-12-16 11:29:47.240  INFO 12844 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-12-16 11:30:05.553  INFO 12844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-16 11:30:05.567  INFO 12844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-16 15:35:14.225  INFO 19548 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 19548 (D:\Codes\web\blog\target\classes started by xxxrp in D:\Codes\web\blog)
+2025-12-16 15:35:14.226  INFO 19548 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2025-12-16 15:35:14.259  INFO 19548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-16 15:35:14.259  INFO 19548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-16 15:35:14.866  INFO 19548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-12-16 15:35:14.868  INFO 19548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-16 15:35:14.894  INFO 19548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2025-12-16 15:35:15.600  INFO 19548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-16 15:35:15.609  INFO 19548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-16 15:35:15.609  INFO 19548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2025-12-16 15:35:15.737  INFO 19548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-16 15:35:15.737  INFO 19548 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1478 ms
+2025-12-16 15:35:16.582  INFO 19548 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-12-16 15:35:16.991  INFO 19548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-16 15:35:17.023  INFO 19548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-16 15:35:17.031  INFO 19548 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 3.235 seconds (JVM running for 4.411)
+2025-12-16 15:35:29.860  INFO 19548 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-16 15:35:29.862  INFO 19548 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-16 15:35:29.877  INFO 19548 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2025-12-16 15:35:29.952  INFO 19548 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 15:35:30.074  INFO 19548 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-16 15:35:30.307  INFO 19548 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-16 15:35:30.480  INFO 19548 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 15:35:32.805  INFO 19548 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/blog/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[14, {}]}
+2025-12-16 15:35:32.914  INFO 19548 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog
+2025-12-16 15:35:33.220  INFO 19548 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/comments/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[14, {}]}
+2025-12-16 15:35:33.231  INFO 19548 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-12-16 15:35:43.425  INFO 19548 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/blog/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[14, {}]}
+2025-12-16 15:35:43.435  INFO 19548 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : blog
+2025-12-16 15:35:43.626  INFO 19548 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/comments/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[14, {}]}
+2025-12-16 15:35:43.628  INFO 19548 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-12-16 15:35:53.236  INFO 19548 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
+2025-12-16 15:35:53.246  INFO 19548 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
+2025-12-16 15:35:53.525  INFO 19548 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/comments/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[3, {}]}
+2025-12-16 15:35:53.528  INFO 19548 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-12-16 15:36:33.240  INFO 19548 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2025-12-16 15:36:33.243  INFO 19548 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : about
+2025-12-16 15:37:19.708  INFO 19548 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 15:37:19.750  INFO 19548 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 15:38:35.233  INFO 19548 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 15:38:35.290  INFO 19548 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : types
+2025-12-16 15:43:43.646  INFO 19548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-16 15:43:43.661  INFO 19548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-16 15:43:48.377  INFO 18860 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 18860 (D:\Codes\web\blog\target\classes started by xxxrp in D:\Codes\web\blog)
+2025-12-16 15:43:48.378  INFO 18860 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2025-12-16 15:43:48.405  INFO 18860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-16 15:43:48.405  INFO 18860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-16 15:43:48.847  INFO 18860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-12-16 15:43:48.849  INFO 18860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-16 15:43:48.866  INFO 18860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-12-16 15:43:49.374  INFO 18860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-16 15:43:49.381  INFO 18860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-16 15:43:49.381  INFO 18860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2025-12-16 15:43:49.508  INFO 18860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-16 15:43:49.509  INFO 18860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1103 ms
+2025-12-16 15:43:50.210  INFO 18860 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-12-16 15:43:50.540  INFO 18860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-16 15:43:50.568  INFO 18860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-16 15:43:50.577  INFO 18860 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 2.498 seconds (JVM running for 3.479)
+2025-12-16 15:43:57.609  INFO 18860 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-16 15:43:57.610  INFO 18860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-16 15:43:57.612  INFO 18860 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-16 15:43:57.659  INFO 18860 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 15:43:57.742  INFO 18860 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-16 15:43:57.905  INFO 18860 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-16 15:43:58.020  INFO 18860 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 15:44:09.581  INFO 18860 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2025-12-16 15:44:09.589  INFO 18860 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : picture
+2025-12-16 15:44:14.561  INFO 18860 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 15:44:14.585  INFO 18860 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 15:44:21.476  INFO 18860 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 15:44:21.501  INFO 18860 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 15:44:55.117  INFO 18860 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 15:44:55.156  INFO 18860 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 15:45:23.593  INFO 18860 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@73f55818, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
+2025-12-16 15:45:23.598 ERROR 18860 --- [http-nio-8080-exec-6] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs, Exception: {}
 
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
@@ -453,15 +409,14 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
-	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
-	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
-	at com.xrp.blog.service.RedisService.queryWithPassThrough(CacheClient.java:85)
-	at com.xrp.blog.service.impl.BlogServiceImpl.getBlog(BlogServiceImpl.java:36)
+	at org.springframework.data.redis.core.RedisTemplate.keys(RedisTemplate.java:895)
+	at com.xrp.blog.service.RedisService.queryAll(CacheClient.java:52)
+	at com.xrp.blog.service.impl.BlogServiceImpl.getAllBlog(BlogServiceImpl.java:46)
 	at com.xrp.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$8db87405.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$db7880c0.getBlog(<generated>)
-	at com.xrp.blog.controller.admin.BlogController.toEdit(BlogController.java:70)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$c817d66b.getAllBlog(<generated>)
+	at com.xrp.blog.controller.admin.BlogController.blogs(BlogController.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -515,7 +470,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
 	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
-	... 68 common frames omitted
+	... 67 common frames omitted
 Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
 	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
 	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
@@ -534,7 +489,7 @@ Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.16
 	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
 	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
 	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
-	... 69 common frames omitted
+	... 68 common frames omitted
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.138.129:6379
 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
 	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
@@ -547,9 +502,9 @@ Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	... 1 common frames omitted
 
-2023-05-03 23:09:43.406  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs/3/input, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
-2023-05-03 23:09:43.407  WARN 4596 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
-2023-05-03 23:09:43.415 ERROR 4596 --- [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-3] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+2025-12-16 15:45:23.599  INFO 18860 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
+2025-12-16 15:45:23.599  WARN 18860 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
+2025-12-16 15:45:23.610 ERROR 18860 --- [http-nio-8080-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-6] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
 
 org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
@@ -642,7 +597,7 @@ Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E:
 	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
 	... 72 common frames omitted
 
-2023-05-03 23:09:43.416 ERROR 4596 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
+2025-12-16 15:45:23.611 ERROR 18860 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
 
 org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
 	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
@@ -726,34 +681,131 @@ org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property o
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
 
-2023-05-03 23:09:47.008  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:09:47.018  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:09:48.286  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
-2023-05-03 23:09:48.294  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:10:11.838  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs/3/input', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@eee6928, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
-2023-05-03 23:10:11.838 ERROR 4596 --- [http-nio-8080-exec-7] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs/3/input, Exception: {}
+2025-12-16 16:35:17.882  INFO 18860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-16 16:35:17.890  INFO 18860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-16 17:05:43.006  INFO 1060 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 1060 (D:\Codes\web\blog\target\classes started by xxxrp in D:\Codes\web\blog)
+2025-12-16 17:05:43.009  INFO 1060 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2025-12-16 17:05:43.065  INFO 1060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-16 17:05:43.066  INFO 1060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-16 17:05:43.921  INFO 1060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-12-16 17:05:43.924  INFO 1060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-16 17:05:43.954  INFO 1060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2025-12-16 17:05:44.894  INFO 1060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-16 17:05:44.909  INFO 1060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-16 17:05:44.911  INFO 1060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2025-12-16 17:05:45.130  INFO 1060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-16 17:05:45.131  INFO 1060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2065 ms
+2025-12-16 17:05:46.267  INFO 1060 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-12-16 17:05:46.808  INFO 1060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-16 17:05:46.859  INFO 1060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-16 17:05:46.871  INFO 1060 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 4.47 seconds (JVM running for 6.126)
+2025-12-16 17:05:55.835  INFO 1060 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-16 17:05:55.835  INFO 1060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-16 17:05:55.837  INFO 1060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-16 17:05:55.899  INFO 1060 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 17:05:56.017  INFO 1060 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-16 17:05:56.281  INFO 1060 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-16 17:05:56.460  INFO 1060 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 17:11:49.624  INFO 1060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-16 17:11:49.643  INFO 1060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-16 20:16:31.954  INFO 27316 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 27316 (D:\Codes\web\blog\target\classes started by xxxrp in D:\Codes\web\blog)
+2025-12-16 20:16:31.955  INFO 27316 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2025-12-16 20:16:32.007  INFO 27316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-16 20:16:32.008  INFO 27316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-16 20:16:33.014  INFO 27316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-12-16 20:16:33.017  INFO 27316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-16 20:16:33.052  INFO 27316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-12-16 20:16:34.016  INFO 27316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-16 20:16:34.029  INFO 27316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-16 20:16:34.030  INFO 27316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2025-12-16 20:16:34.230  INFO 27316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-16 20:16:34.231  INFO 27316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2223 ms
+2025-12-16 20:16:36.169  INFO 27316 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-12-16 20:16:37.094  INFO 27316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-16 20:16:37.176  INFO 27316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-16 20:16:37.198  INFO 27316 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 5.868 seconds (JVM running for 7.621)
+2025-12-16 20:16:39.289  INFO 27316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-16 20:16:39.290  INFO 27316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-16 20:16:39.292  INFO 27316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-16 20:16:39.363  INFO 27316 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:16:39.496  INFO 27316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-16 20:16:39.738  INFO 27316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-16 20:16:39.886  INFO 27316 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:16:49.727  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/blog/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[14, {}]}
+2025-12-16 20:16:49.869  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog
+2025-12-16 20:16:50.485  INFO 27316 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/comments/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[14, {}]}
+2025-12-16 20:16:50.507  INFO 27316 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-12-16 20:17:26.783  INFO 27316 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2025-12-16 20:17:26.810  INFO 27316 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : picture
+2025-12-16 20:17:37.208  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:17:37.261  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:18:01.928  INFO 27316 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[2, {}]}
+2025-12-16 20:18:01.977  INFO 27316 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:21:11.479  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 20:21:11.506  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : types
+2025-12-16 20:21:12.376  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/tags/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 20:21:12.410  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : tags
+2025-12-16 20:21:13.256  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
+2025-12-16 20:21:13.294  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : archives
+2025-12-16 20:21:14.435  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2025-12-16 20:21:14.440  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : picture
+2025-12-16 20:21:15.071  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2025-12-16 20:21:15.072  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : about
+2025-12-16 20:27:39.268  INFO 27316 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:27:39.316  INFO 27316 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:28:56.027  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/blog/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[14, {}]}
+2025-12-16 20:28:56.045  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog
+2025-12-16 20:28:56.513  INFO 27316 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/comments/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[14, {}]}
+2025-12-16 20:28:56.519  INFO 27316 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-12-16 20:29:10.006  INFO 27316 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2025-12-16 20:29:10.007  INFO 27316 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : about
+2025-12-16 20:29:11.107  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/tags/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 20:29:11.128  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : tags
+2025-12-16 20:29:11.876  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 20:29:11.891  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : types
+2025-12-16 20:29:12.606  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:29:12.630  INFO 27316 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:29:13.323  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
+2025-12-16 20:29:13.354  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : archives
+2025-12-16 20:29:15.403  INFO 27316 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2025-12-16 20:29:15.410  INFO 27316 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : picture
+2025-12-16 20:29:17.441  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2025-12-16 20:29:17.442  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : about
+2025-12-16 20:29:18.892  INFO 27316 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:29:18.912  INFO 27316 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:29:27.864  INFO 27316 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[2, {}]}
+2025-12-16 20:29:27.887  INFO 27316 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:31:07.523  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:31:07.549  INFO 27316 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:31:13.658  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/blog/15', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[15, {}]}
+2025-12-16 20:31:13.668  INFO 27316 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog
+2025-12-16 20:31:13.714  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
+2025-12-16 20:31:13.723  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@731103dc, java.lang.RuntimeException: 该博客不存在]}
+2025-12-16 20:31:13.734 ERROR 27316 --- [http-nio-8080-exec-10] c.x.blog.controller.ExceptionController  : Request url: /blog/1, Exception: {}
 
-org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
-	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
-	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
-	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
-	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
-	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
-	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
-	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
-	at com.xrp.blog.service.RedisService.queryWithPassThrough(CacheClient.java:85)
-	at com.xrp.blog.service.impl.BlogServiceImpl.getBlog(BlogServiceImpl.java:36)
+java.lang.RuntimeException: 该博客不存在
+	at com.xrp.blog.service.impl.BlogServiceImpl.getDetailedBlog(BlogServiceImpl.java:66)
 	at com.xrp.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$8db87405.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$db7880c0.getBlog(<generated>)
-	at com.xrp.blog.controller.admin.BlogController.toEdit(BlogController.java:70)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$675610c0.getDetailedBlog(<generated>)
+	at com.xrp.blog.controller.IndexController.blog(IndexController.java:63)
+	at com.xrp.blog.controller.IndexController$$FastClassBySpringCGLIB$$9ccc1243.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.xrp.blog.controller.IndexController$$EnhancerBySpringCGLIB$$b5122857.blog(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -804,44 +856,10 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
-Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
-	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
-	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
-	... 68 common frames omitted
-Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
-	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
-	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
-	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
-	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
-	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
-	at java.util.Optional.orElseGet(Optional.java:267)
-	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
-	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$null$0(LettucePoolingConnectionProvider.java:97)
-	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
-	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
-	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:70)
-	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:571)
-	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:298)
-	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:223)
-	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
-	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
-	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
-	... 69 common frames omitted
-Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.138.129:6379
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
-	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
-	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	... 1 common frames omitted
 
-2023-05-03 23:10:11.839  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs/3/input, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
-2023-05-03 23:10:11.839  WARN 4596 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
-2023-05-03 23:10:11.842 ERROR 4596 --- [http-nio-8080-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-7] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+2025-12-16 20:31:13.736  INFO 27316 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/blog/1, Exception=java.lang.RuntimeException: 该博客不存在}]
+2025-12-16 20:31:13.736  WARN 27316 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: 该博客不存在]
+2025-12-16 20:31:13.759 ERROR 27316 --- [http-nio-8080-exec-10] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-10] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
 
 org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")
 	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
@@ -934,7 +952,7 @@ Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E:
 	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
 	... 72 common frames omitted
 
-2023-05-03 23:10:11.843 ERROR 4596 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
+2025-12-16 20:31:13.762 ERROR 27316 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
 
 org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
 	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
@@ -1018,153 +1036,59 @@ org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property o
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
 
-2023-05-03 23:13:49.403  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:13:49.418  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:13:52.371  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:13:52.383  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:14:20.500  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:14:20.526  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:14:55.766  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:14:55.782  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:14:59.009  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:14:59.022  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:15:01.553  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:15:01.563  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:15:04.887  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/tags/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, 1, {}]}
-2023-05-03 23:15:04.899  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : tags
-2023-05-03 23:16:41.483  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:16:41.494  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:17:07.760  INFO 4596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-05-03 23:17:07.766  INFO 4596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-05-03 23:17:14.763  INFO 14532 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 14532 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
-2023-05-03 23:17:14.764  INFO 14532 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
-2023-05-03 23:17:14.813  INFO 14532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-05-03 23:17:14.813  INFO 14532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-05-03 23:17:15.581  INFO 14532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-05-03 23:17:15.583  INFO 14532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-05-03 23:17:15.615  INFO 14532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-2023-05-03 23:17:16.390  INFO 14532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-05-03 23:17:16.400  INFO 14532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-05-03 23:17:16.400  INFO 14532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2023-05-03 23:17:16.625  INFO 14532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-05-03 23:17:16.625  INFO 14532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1811 ms
-2023-05-03 23:17:17.636  INFO 14532 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-05-03 23:17:18.076  INFO 14532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-05-03 23:17:18.122  INFO 14532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-05-03 23:17:18.132  INFO 14532 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 3.858 seconds (JVM running for 5.275)
-2023-05-03 23:17:18.399  INFO 14532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-03 23:17:18.399  INFO 14532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-05-03 23:17:18.400  INFO 14532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-05-03 23:17:18.438  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:17:18.520  INFO 14532 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-05-03 23:17:18.690  INFO 14532 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-05-03 23:17:18.786  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:17:28.646  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:17:28.664  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:18:09.886  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:18:09.906  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:18:35.686  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:18:35.709  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:18:41.011  INFO 14532 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
-2023-05-03 23:18:41.072  INFO 14532 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:23:46.092  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:23:46.106  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:23:51.893  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/blog/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[4, {}]}
-2023-05-03 23:23:51.901  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:23:52.542  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
-2023-05-03 23:23:52.555  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog::commentList
-2023-05-03 23:26:23.704  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:26:23.721  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:26:28.552  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:26:28.565  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:26:44.735  INFO 14532 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:26:44.749  INFO 14532 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:27:18.738  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:27:18.749  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:27:26.029  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/blog/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[4, {}]}
-2023-05-03 23:27:26.037  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:27:26.613  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
-2023-05-03 23:27:26.616  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : blog::commentList
-2023-05-03 23:27:42.563  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
-2023-05-03 23:27:42.563  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : about
-2023-05-03 23:27:45.379  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:27:45.392  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:29:24.473  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:29:24.486  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:30:21.162  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:30:21.175  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:31:56.353  INFO 14532 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:31:56.369  INFO 14532 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:32:13.862  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:32:13.877  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:33:49.305  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:33:49.330  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:35:29.047  INFO 14532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-05-03 23:35:29.071  INFO 14532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-05-03 23:35:45.365  INFO 9732 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 9732 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
-2023-05-03 23:35:45.368  INFO 9732 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
-2023-05-03 23:35:45.460  INFO 9732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-05-03 23:35:45.461  INFO 9732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-05-03 23:35:46.666  INFO 9732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2023-05-03 23:35:46.671  INFO 9732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-05-03 23:35:46.717  INFO 9732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
-2023-05-03 23:35:47.816  INFO 9732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-05-03 23:35:47.853  INFO 9732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-05-03 23:35:47.855  INFO 9732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2023-05-03 23:35:48.282  INFO 9732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-05-03 23:35:48.283  INFO 9732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2821 ms
-2023-05-03 23:35:50.138  INFO 9732 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-05-03 23:35:51.379  INFO 9732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-05-03 23:35:51.524  INFO 9732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-05-03 23:35:51.560  INFO 9732 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 6.9 seconds (JVM running for 9.058)
-2023-05-03 23:35:51.755  INFO 9732 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-05-03 23:35:51.756  INFO 9732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-05-03 23:35:51.758  INFO 9732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-05-03 23:35:51.888  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:35:52.199  INFO 9732 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-05-03 23:35:52.854  INFO 9732 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-05-03 23:35:53.032  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:36:11.476  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:36:11.507  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:36:56.809  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:36:56.833  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:37:11.683  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:37:11.743  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:40:39.086  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
-2023-05-03 23:40:39.125  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog::commentList
-2023-05-03 23:40:42.020  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:40:42.066  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:41:19.628  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:41:19.661  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:45:36.828  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
-2023-05-03 23:45:36.838  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : picture
-2023-05-03 23:45:39.096  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
-2023-05-03 23:45:39.132  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : archives
-2023-05-03 23:45:41.483  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/tags/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, -1, {}]}
-2023-05-03 23:45:41.510  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : tags
-2023-05-03 23:45:42.606  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
-2023-05-03 23:45:42.647  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : types
-2023-05-03 23:45:44.070  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:45:44.095  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:46:01.972  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
-2023-05-03 23:46:02.076  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:46:09.336  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
-2023-05-03 23:46:09.350  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:46:10.340  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
-2023-05-03 23:46:10.342  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : blog::commentList
-2023-05-03 23:46:20.646  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/tags/2', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, 2, {}]}
-2023-05-03 23:46:20.659  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : tags
-2023-05-03 23:46:26.440  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
-2023-05-03 23:46:26.450  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:46:48.545  INFO 9732 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:46:48.571  INFO 9732 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:52:58.893  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:52:58.908  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:53:01.068  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/blog/5', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[5, {}]}
-2023-05-03 23:53:01.087  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:58:52.458  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
-2023-05-03 23:58:52.484  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
-2023-05-03 23:58:56.477  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/5', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[5, {}]}
-2023-05-03 23:58:56.492  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
-2023-05-03 23:58:57.546  INFO 9732 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/comments/5', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[5, {}]}
-2023-05-03 23:58:57.550  INFO 9732 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-12-16 20:32:21.225  INFO 27316 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:32:21.245  INFO 27316 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 20:39:41.367  INFO 27316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-16 20:39:41.381  INFO 27316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-16 20:53:54.249  INFO 21016 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 21016 (D:\Codes\web\blog\target\classes started by xxxrp in D:\Codes\web\blog)
+2025-12-16 20:53:54.250  INFO 21016 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2025-12-16 20:53:54.304  INFO 21016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-16 20:53:54.304  INFO 21016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-16 20:53:55.229  INFO 21016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-12-16 20:53:55.231  INFO 21016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-16 20:53:55.264  INFO 21016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-12-16 20:53:56.160  INFO 21016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-12-16 20:53:56.170  INFO 21016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-16 20:53:56.170  INFO 21016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2025-12-16 20:53:56.388  INFO 21016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-16 20:53:56.389  INFO 21016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2084 ms
+2025-12-16 20:53:57.569  INFO 21016 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-12-16 20:53:58.116  INFO 21016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-12-16 20:53:58.166  INFO 21016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-16 20:53:58.180  INFO 21016 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 4.523 seconds (JVM running for 6.156)
+2025-12-16 20:54:17.880  INFO 21016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-16 20:54:17.881  INFO 21016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-16 20:54:17.883  INFO 21016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-16 20:54:17.937  INFO 21016 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 20:54:18.037  INFO 21016 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-16 20:54:18.216  INFO 21016 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-16 20:54:18.328  INFO 21016 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:08:50.865  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 21:08:50.895  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : types
+2025-12-16 21:08:51.947  INFO 21016 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 21:08:51.980  INFO 21016 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:08:55.628  INFO 21016 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[2, {}]}
+2025-12-16 21:08:55.666  INFO 21016 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:08:59.178  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 21:08:59.226  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:09:03.384  INFO 21016 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[2, {}]}
+2025-12-16 21:09:03.411  INFO 21016 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:09:19.433  INFO 21016 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 21:09:19.457  INFO 21016 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:22:50.756  INFO 21016 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 21:22:50.795  INFO 21016 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:22:52.066  WARN 21016 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m33s393ms104µs).
+2025-12-16 21:40:13.894  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 21:40:13.915  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : types
+2025-12-16 21:40:14.760  INFO 21016 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/tags/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 21:40:14.783  INFO 21016 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : tags
+2025-12-16 21:40:15.612  INFO 21016 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
+2025-12-16 21:40:15.659  INFO 21016 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : archives
+2025-12-16 21:40:16.429  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2025-12-16 21:40:16.443  INFO 21016 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : types
+2025-12-16 21:40:17.204  INFO 21016 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-12-16 21:40:17.224  INFO 21016 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2025-12-16 21:41:05.301  INFO 21016 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/search', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.search', args=[1, 事务, {}]}
+2025-12-16 21:41:05.331  INFO 21016 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : search
+2025-12-16 21:41:16.235  INFO 21016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-16 21:41:16.240  INFO 21016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

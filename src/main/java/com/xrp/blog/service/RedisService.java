@@ -1,17 +1,15 @@
-package com.xrp.blog.util;
+package com.xrp.blog.service;
 
 import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
-import com.xrp.blog.pojo.Blog;
+import com.xrp.blog.util.RedisData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,10 +25,10 @@ import static com.xrp.blog.util.RedisConstants.LOCK_SHOP_KEY;
 
 @Slf4j
 @Component
-public class CacheClient {
+public class RedisService {
     private final StringRedisTemplate stringRedisTemplate;
 
-    public CacheClient(StringRedisTemplate stringRedisTemplate) {
+    public RedisService(StringRedisTemplate stringRedisTemplate) {
         this.stringRedisTemplate = stringRedisTemplate;
     }
     public void set(String key, Object value, Long time, TimeUnit timeUnit){
@@ -46,8 +44,8 @@ public class CacheClient {
 
     }
 
-    public <R,ID> List<R> queryAll(String prefix, ID id, Class<R> type, Function<ID,List<R>> dbFallBack
-            ,Long time,TimeUnit timeUnit) throws NoSuchFieldException { //R，id泛型； keyPre key前缀；dbFallBack 函数式编程，传入的查询数据库的函数
+    public <R,ID> List<R> queryAllBlog(String prefix, ID id, Class<R> type, Function<ID,List<R>> dbFallBack
+            , Long time, TimeUnit timeUnit) throws NoSuchFieldException { //R，id泛型； keyPre key前缀；dbFallBack 函数式编程，传入的查询数据库的函数
         // 1.从redis查询商铺缓存
         Set<String> keys = stringRedisTemplate.keys(prefix .concat("*") );//获取所有的前缀开头的key
         // 2.判断是否存在
@@ -220,4 +218,5 @@ public class CacheClient {
     private void unlock(String key){//释放锁
         stringRedisTemplate.delete(key);
     }
+
 }

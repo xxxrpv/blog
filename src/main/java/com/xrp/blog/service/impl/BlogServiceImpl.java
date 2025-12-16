@@ -2,7 +2,7 @@ package com.xrp.blog.service.impl;
 
 import com.xrp.blog.mapper.BlogMapper;
 import com.xrp.blog.pojo.Blog;
-import com.xrp.blog.util.CacheClient;
+import com.xrp.blog.service.RedisService;
 import com.xrp.blog.vo.BlogAndTag;
 import com.xrp.blog.pojo.Tag;
 import com.xrp.blog.service.BlogService;
@@ -11,6 +11,7 @@ import com.xrp.blog.vo.BlogQuery;
 import com.xrp.blog.vo.QueryResult;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -27,15 +28,25 @@ public class BlogServiceImpl implements BlogService {
     @Autowired
     private BlogMapper blogDao;
     @Resource
-    private CacheClient cacheClient;
+    private RedisService redisService;
+    private final StringRedisTemplate stringRedisTemplate;
+
+    public BlogServiceImpl(StringRedisTemplate stringRedisTemplate) {
+        this.stringRedisTemplate = stringRedisTemplate;
+    }
 
     @Override
     public Blog getBlog(Long id) {
-//        System.out.println("redis**************");
-     /*   Blog blog=cacheClient.queryWithPassThrough
-                (CACHE_BLOG_KEY,id,Blog.class,id2->blogDao.getById(id),CACHE_BLOG_TTL, TimeUnit.MINUTES);
-        return blog;*/
-        return blogDao.getById(id);
+// 复用RedisService的穿透防护方法：查缓存→无则查库→更新缓存
+        return  redisService.queryWithPassThrough
+                (CACHE_BLOG_KEY,       // 缓存键前缀（在RedisConstants中定义）
+                        id,                   // 博客ID
+                        Blog.class,           // 缓存的数据类型
+                        id2 -> blogDao.getById(id),  // 数据库查询回调（缓存没有时执行）
+                        CACHE_BLOG_TTL,       // 缓存过期时间（30分钟，在RedisConstants中定义）
+                        TimeUnit.MINUTES      // 时间单位
+                );
+//        return blogDao.getById(id);
     }
 
     @Override
@@ -43,7 +54,7 @@ public class BlogServiceImpl implements BlogService {
      /*   List<Blog> list=cacheClient.queryWithPassThrough
                 (CACHE_BLOG_KEY,id,Blog.class,id2->blogDao.getAllBlog(),CACHE_BLOG_TTL, TimeUnit.MINUTES);*/
         try {
-            return cacheClient.queryAll(CACHE_BLOG_KEY,id,Blog.class,id2->this.getAll(id),CACHE_BLOG_TTL, TimeUnit.MINUTES);
+            return redisService.queryAllBlog(CACHE_BLOG_KEY,id,Blog.class, id2->this.getAll(id),CACHE_BLOG_TTL, TimeUnit.MINUTES);
         } catch (NoSuchFieldException e) {
             throw new RuntimeException(e);
         }
@@ -134,6 +145,13 @@ public class BlogServiceImpl implements BlogService {
             blogAndTag = new BlogAndTag(tag.getId(), id);
             blogDao.saveBlogAndTag(blogAndTag);
         }
+        // 新增后主动写入缓存（blog.getId()是保存后生成的自增ID）
+        redisService.set(
+                CACHE_BLOG_KEY + blog.getId(),
+                blog,
+                CACHE_BLOG_TTL,
+                TimeUnit.MINUTES
+        );
         return 1;
     }
 
@@ -149,12 +167,16 @@ public class BlogServiceImpl implements BlogService {
             blogDao.saveBlogAndTag(blogAndTag);
         }
         blog.setUpdateTime(new Date());
+        // 修改后删除缓存，下次查询会从数据库加载新数据
+        stringRedisTemplate.delete(CACHE_BLOG_KEY + id);
         return blogDao.update(blog);
     }
     @Transactional
     @Override
     public void deleteBlog(Long id) {
+        //先删数据库，再删缓存。
         blogDao.deleteById(id);
+        stringRedisTemplate.delete(CACHE_BLOG_KEY + id);// 清除缓存
 
     }
 }
