@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/_fragments :: head(~{::title})">
+  <title>分类管理</title>
+</head>
+<body>
+
+<!--导航-->
+<nav th:replace="admin/_fragments :: menu(2)"  ></nav>
+<div class="ui attached pointing menu">
+  <div class="ui container">
+    <div class="right menu">
+      <a href="#" th:href="@{/admin/types/input}" class="item">新增</a>
+      <a href="#" th:href="@{/admin/types}" class="teal active item">列表</a>
+    </div>
+  </div>
+</div>
+
+<!--中间内容-->
+<div  class="m-container-small m-padded-tb-big">
+  <div class="ui container">
+    <!--    message不为空(unless取反)-->
+    <div class="ui success message" th:unless="${#strings.isEmpty(message)}">
+      <i class="close icon"></i>
+      <div class="header">提示：</div>
+      <p th:text="${message}">恭喜，操作成功！</p>
+    </div>
+    <table class="ui compact teal table">
+      <thead>
+      <tr>
+        <th></th>
+        <th>名称</th>
+        <th>操作</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="type,iterStat : ${pageInfo.list}">
+        <td th:text="${iterStat.count}">1</td>
+        <td th:text="${type.name}">刻意练习清单</td>
+        <td>
+          <a href="#" th:href="@{/admin/types/{id}/input (id=${type.id})}" class="ui mini teal basic button">编辑</a>
+          <a href="#" th:href="@{/admin/types/{id}/delete(id=${type.id})}" class="ui mini red basic button">删除</a>
+        </td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <th colspan="7" >
+        <!--          分页-->
+          <!--th:if="${page.totalPages}>1":页数大于一才会显示-->
+          <div class="ui mini pagination menu" >
+            <!--th:unless="${page.first}"是否是第一页，不是第一页就显示-->
+            <a class="item" th:href="@{/admin/types}">首页</a>
+            <a class="item" th:href="@{/admin/types(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}" >上一页</a>
+            <a class="item" th:href="@{/admin/types(pageNum=${pageInfo.hasNextPage}?${pageInfo.nextPage}:${pageInfo.pages})}" >下一页</a>
+            <a class="item" th:href="@{/admin/types(pageNum=${pageInfo.pages})}">尾页</a>
+          </div>
+          <div class="ui mini segment m-inline-block">
+            <p >当前第<span th:text="${pageInfo.pageNum}"></span>页，总<span th:text="${pageInfo.pages}"></span>页，共<span th:text="${pageInfo.total}"></span>条记录</p>
+          </div>
+          <a href="#" th:href="@{/admin/types/input}" class="ui mini right floated teal basic button">新增</a>
+        </th>
+      </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+
+<br>
+<br>
+<!--底部footer-->
+<footer th:replace="admin/_fragments :: footer">
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script>
+  //<!--jQuery获取这个元素-->
+  $('.menu.toggle').click(function () {//toggleClass开关一样的样式
+    $('.m-item').toggleClass('m-mobile-hide');//m-item:获取那几个列表，点击的时候处理m-mobile-hide
+  });
+  //<!--jQuery:按钮之后触发，执行JS组件-->
+  // $('#payButton').popup({         //获得按钮、.popup:没有为什么，调用组件
+  //     popup : $('.payQR.popup'),  //拿到二维码对象，定位到这个元素
+  //     //on : 'click',               //点击的时候触发
+  //     position: 'bottom center'   //position位置：在中下的位置触发
+  // });
+  $('.ui.dropdown').dropdown({        //鼠标放上去就会出现下拉
+    on : 'hover'                    //默认是点击，hover鼠标放上去就出来
+  });
+
+
+  //消息提示关闭初始化
+  $('.message .close')
+          .on('click', function () {
+            $(this)
+                    .closest('.message')
+                    .transition('fade');
+          });
+</script>
+</body>
+</html>

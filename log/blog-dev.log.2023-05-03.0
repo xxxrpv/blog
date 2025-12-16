@@ -1,0 +1,1170 @@
+2023-05-03 15:40:18.630  INFO 13164 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 13164 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2023-05-03 15:40:18.634  INFO 13164 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2023-05-03 15:40:18.690  INFO 13164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-03 15:40:18.690  INFO 13164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-03 15:40:19.496  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-05-03 15:40:19.499  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-03 15:40:19.527  INFO 13164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-05-03 15:40:20.393  INFO 13164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 15:40:20.406  INFO 13164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 15:40:20.406  INFO 13164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-05-03 15:40:20.652  INFO 13164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03 15:40:20.653  INFO 13164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1961 ms
+2023-05-03 15:40:22.816  INFO 13164 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-03 15:40:24.045  INFO 13164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-03 15:40:24.133  INFO 13164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 15:40:24.188  INFO 13164 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 6.19 seconds (JVM running for 7.766)
+2023-05-03 15:40:45.019  INFO 13164 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 15:40:45.019  INFO 13164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 15:40:45.021  INFO 13164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-03 15:40:45.074  INFO 13164 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 15:40:45.171  INFO 13164 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 15:40:45.472  INFO 13164 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 15:40:45.676  INFO 13164 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 15:40:46.485  INFO 13164 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 15:40:46.521  INFO 13164 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 15:41:42.942  INFO 13164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-03 15:41:42.960  INFO 13164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-03 16:00:33.473  INFO 31156 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 31156 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2023-05-03 16:00:33.476  INFO 31156 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2023-05-03 16:00:33.534  INFO 31156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-03 16:00:33.534  INFO 31156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-03 16:00:34.346  INFO 31156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-05-03 16:00:34.350  INFO 31156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-03 16:00:34.380  INFO 31156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-05-03 16:00:35.174  INFO 31156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 16:00:35.183  INFO 31156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 16:00:35.183  INFO 31156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-05-03 16:00:35.381  INFO 31156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03 16:00:35.382  INFO 31156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1847 ms
+2023-05-03 16:00:36.485  INFO 31156 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-03 16:00:37.024  INFO 31156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-03 16:00:37.078  INFO 31156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 16:00:37.089  INFO 31156 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 4.379 seconds (JVM running for 6.175)
+2023-05-03 16:00:45.073  INFO 31156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 16:00:45.074  INFO 31156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 16:00:45.075  INFO 31156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-03 16:00:45.112  INFO 31156 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 16:00:45.183  INFO 31156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 16:00:45.319  INFO 31156 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 16:00:45.407  INFO 31156 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 16:01:15.977  INFO 31156 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
+2023-05-03 16:01:16.072  INFO 31156 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 16:01:16.794  INFO 31156 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
+2023-05-03 16:01:16.805  INFO 31156 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2023-05-03 16:02:22.129  INFO 31156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-03 16:02:22.140  INFO 31156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-03 16:02:35.482  INFO 25876 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 25876 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2023-05-03 16:02:35.484  INFO 25876 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2023-05-03 16:02:35.538  INFO 25876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-03 16:02:35.539  INFO 25876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-03 16:02:36.303  INFO 25876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-05-03 16:02:36.305  INFO 25876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-03 16:02:36.330  INFO 25876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-05-03 16:02:37.467  INFO 25876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 16:02:37.479  INFO 25876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 16:02:37.480  INFO 25876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-05-03 16:02:37.878  INFO 25876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03 16:02:37.879  INFO 25876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2340 ms
+2023-05-03 16:02:39.028  INFO 25876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-03 16:02:39.546  INFO 25876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-03 16:02:39.587  INFO 25876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 16:02:39.599  INFO 25876 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 4.692 seconds (JVM running for 6.515)
+2023-05-03 16:02:45.064  INFO 25876 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 16:02:45.064  INFO 25876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 16:02:45.065  INFO 25876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-03 16:02:45.106  INFO 25876 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 16:02:45.183  INFO 25876 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 16:02:45.325  INFO 25876 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 16:02:45.408  INFO 25876 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 16:02:47.537  INFO 25876 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
+2023-05-03 16:02:47.655  INFO 25876 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 16:02:48.459  INFO 25876 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
+2023-05-03 16:02:48.468  INFO 25876 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2023-05-03 16:04:53.146  INFO 25876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-03 16:04:53.160  INFO 25876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-03 22:44:15.546  INFO 4596 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 4596 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2023-05-03 22:44:15.548  INFO 4596 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2023-05-03 22:44:15.619  INFO 4596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-03 22:44:15.620  INFO 4596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-03 22:44:16.775  INFO 4596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-05-03 22:44:16.780  INFO 4596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-03 22:44:16.824  INFO 4596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-05-03 22:44:18.414  INFO 4596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:44:18.426  INFO 4596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 22:44:18.427  INFO 4596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-05-03 22:44:18.686  INFO 4596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03 22:44:18.687  INFO 4596 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3066 ms
+2023-05-03 22:44:19.787  INFO 4596 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-03 22:44:20.343  INFO 4596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-03 22:44:20.386  INFO 4596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:44:20.397  INFO 4596 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 5.524 seconds (JVM running for 7.803)
+2023-05-03 22:44:32.030  INFO 4596 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:44:32.031  INFO 4596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:44:32.034  INFO 4596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-05-03 22:44:32.156  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 22:44:32.505  INFO 4596 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 22:44:32.883  INFO 4596 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 22:44:33.308  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 22:44:37.803  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 22:44:37.812  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 22:44:44.725  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 22:44:44.742  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 22:47:47.202  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 22:47:47.206  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 22:47:48.569  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 22:47:48.584  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 22:48:20.129  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 22:48:20.151  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 22:56:58.052  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 22:56:58.055  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 22:56:59.939  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 22:56:59.942  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 22:57:09.734  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
+2023-05-03 22:57:09.757  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : archives
+2023-05-03 22:57:10.766  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 22:57:10.770  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 22:57:11.670  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
+2023-05-03 22:57:11.676  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : archives
+2023-05-03 22:57:12.817  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 22:57:12.821  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 22:57:13.926  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 22:57:13.929  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 22:57:18.381  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 22:57:18.393  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 22:58:37.124  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 22:58:37.138  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 22:58:39.655  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/blog/2', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[2, {}]}
+2023-05-03 22:58:39.716  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 22:58:45.779  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
+2023-05-03 22:58:45.786  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 22:58:46.414  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
+2023-05-03 22:58:46.419  INFO 4596 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2023-05-03 22:58:58.401  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/blog/2', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[2, {}]}
+2023-05-03 22:58:58.414  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 22:59:56.841  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2023-05-03 22:59:56.842  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : about
+2023-05-03 23:06:27.954  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:06:27.967  INFO 4596 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:09:01.832  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:09:01.846  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:09:03.855  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
+2023-05-03 23:09:03.863  INFO 4596 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:09:33.395  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs/3/input', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@eee6928, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
+2023-05-03 23:09:33.405 ERROR 4596 --- [http-nio-8080-exec-1] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs/3/input, Exception: {}
+
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
+	at com.xrp.blog.util.CacheClient.queryWithPassThrough(CacheClient.java:85)
+	at com.xrp.blog.service.impl.BlogServiceImpl.getBlog(BlogServiceImpl.java:36)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$8db87405.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$db7880c0.getBlog(<generated>)
+	at com.xrp.blog.controller.admin.BlogController.toEdit(BlogController.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 68 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$null$0(LettucePoolingConnectionProvider.java:97)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:70)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:571)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:298)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:223)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
+	... 69 common frames omitted
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.138.129:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+
+2023-05-03 23:09:33.407  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs/3/input, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
+2023-05-03 23:09:33.407  WARN 4596 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
+2023-05-03 23:09:33.419 ERROR 4596 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "exception.message" (template: "error/error" - line 55, col 10)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (template: "error/error" - line 55, col 10)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:96)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 72 common frames omitted
+
+2023-05-03 23:09:33.422 ERROR 4596 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:96)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-05-03 23:09:43.403  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs/3/input', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@131644b3, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
+2023-05-03 23:09:43.405 ERROR 4596 --- [http-nio-8080-exec-3] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs/3/input, Exception: {}
+
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
+	at com.xrp.blog.util.CacheClient.queryWithPassThrough(CacheClient.java:85)
+	at com.xrp.blog.service.impl.BlogServiceImpl.getBlog(BlogServiceImpl.java:36)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$8db87405.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$db7880c0.getBlog(<generated>)
+	at com.xrp.blog.controller.admin.BlogController.toEdit(BlogController.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 68 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$null$0(LettucePoolingConnectionProvider.java:97)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:70)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:571)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:298)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:223)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
+	... 69 common frames omitted
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.138.129:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+
+2023-05-03 23:09:43.406  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs/3/input, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
+2023-05-03 23:09:43.407  WARN 4596 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
+2023-05-03 23:09:43.415 ERROR 4596 --- [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-3] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "exception.message" (template: "error/error" - line 55, col 10)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (template: "error/error" - line 55, col 10)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:96)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 72 common frames omitted
+
+2023-05-03 23:09:43.416 ERROR 4596 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:96)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-05-03 23:09:47.008  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:09:47.018  INFO 4596 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:09:48.286  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
+2023-05-03 23:09:48.294  INFO 4596 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:10:11.838  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/admin/blogs/3/input', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ExceptionController.exceptionHandler', args=[org.apache.catalina.connector.RequestFacade@eee6928, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]}
+2023-05-03 23:10:11.838 ERROR 4596 --- [http-nio-8080-exec-7] c.x.blog.controller.ExceptionController  : Request url: /admin/blogs/3/input, Exception: {}
+
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1093)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:421)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:210)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:54)
+	at com.xrp.blog.util.CacheClient.queryWithPassThrough(CacheClient.java:85)
+	at com.xrp.blog.service.impl.BlogServiceImpl.getBlog(BlogServiceImpl.java:36)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$8db87405.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.xrp.blog.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$db7880c0.getBlog(<generated>)
+	at com.xrp.blog.controller.admin.BlogController.toEdit(BlogController.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595)
+	... 68 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$null$0(LettucePoolingConnectionProvider.java:97)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211)
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201)
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:70)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:571)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:298)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:223)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122)
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117)
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103)
+	... 69 common frames omitted
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.138.129:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+
+2023-05-03 23:10:11.839  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : ModelAndView [view="error/error"; model={url=/admin/blogs/3/input, Exception=org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379}]
+2023-05-03 23:10:11.839  WARN 4596 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.138.129:6379]
+2023-05-03 23:10:11.842 ERROR 4596 --- [http-nio-8080-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-7] Exception processing template "error/error": An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "exception.message" (template: "error/error" - line 55, col 10)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (template: "error/error" - line 55, col 10)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:96)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 72 common frames omitted
+
+2023-05-03 23:10:11.843 ERROR 4596 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error/error.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:96)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.StandardUtextTagProcessor.doProcess(StandardUtextTagProcessor.java:87)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-05-03 23:13:49.403  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:13:49.418  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:13:52.371  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:13:52.383  INFO 4596 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:14:20.500  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:14:20.526  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:14:55.766  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:14:55.782  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:14:59.009  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:14:59.022  INFO 4596 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:15:01.553  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:15:01.563  INFO 4596 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:15:04.887  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/tags/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, 1, {}]}
+2023-05-03 23:15:04.899  INFO 4596 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : tags
+2023-05-03 23:16:41.483  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:16:41.494  INFO 4596 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:17:07.760  INFO 4596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-03 23:17:07.766  INFO 4596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-03 23:17:14.763  INFO 14532 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 14532 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2023-05-03 23:17:14.764  INFO 14532 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2023-05-03 23:17:14.813  INFO 14532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-03 23:17:14.813  INFO 14532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-03 23:17:15.581  INFO 14532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-05-03 23:17:15.583  INFO 14532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-03 23:17:15.615  INFO 14532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-05-03 23:17:16.390  INFO 14532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 23:17:16.400  INFO 14532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 23:17:16.400  INFO 14532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-05-03 23:17:16.625  INFO 14532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03 23:17:16.625  INFO 14532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1811 ms
+2023-05-03 23:17:17.636  INFO 14532 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-03 23:17:18.076  INFO 14532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-03 23:17:18.122  INFO 14532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 23:17:18.132  INFO 14532 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 3.858 seconds (JVM running for 5.275)
+2023-05-03 23:17:18.399  INFO 14532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 23:17:18.399  INFO 14532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 23:17:18.400  INFO 14532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-03 23:17:18.438  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:17:18.520  INFO 14532 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 23:17:18.690  INFO 14532 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 23:17:18.786  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:17:28.646  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:17:28.664  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:18:09.886  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:18:09.906  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:18:35.686  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:18:35.709  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:18:41.011  INFO 14532 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
+2023-05-03 23:18:41.072  INFO 14532 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:23:46.092  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:23:46.106  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:23:51.893  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/blog/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[4, {}]}
+2023-05-03 23:23:51.901  INFO 14532 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:23:52.542  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
+2023-05-03 23:23:52.555  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2023-05-03 23:26:23.704  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:26:23.721  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:26:28.552  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:26:28.565  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:26:44.735  INFO 14532 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:26:44.749  INFO 14532 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:27:18.738  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:27:18.749  INFO 14532 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:27:26.029  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/blog/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[4, {}]}
+2023-05-03 23:27:26.037  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:27:26.613  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
+2023-05-03 23:27:26.616  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2023-05-03 23:27:42.563  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2023-05-03 23:27:42.563  INFO 14532 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : about
+2023-05-03 23:27:45.379  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:27:45.392  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:29:24.473  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:29:24.486  INFO 14532 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:30:21.162  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:30:21.175  INFO 14532 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:31:56.353  INFO 14532 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:31:56.369  INFO 14532 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:32:13.862  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:32:13.877  INFO 14532 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:33:49.305  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:33:49.330  INFO 14532 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:35:29.047  INFO 14532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-03 23:35:29.071  INFO 14532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-03 23:35:45.365  INFO 9732 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 9732 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2023-05-03 23:35:45.368  INFO 9732 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2023-05-03 23:35:45.460  INFO 9732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-03 23:35:45.461  INFO 9732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-03 23:35:46.666  INFO 9732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-05-03 23:35:46.671  INFO 9732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-03 23:35:46.717  INFO 9732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2023-05-03 23:35:47.816  INFO 9732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 23:35:47.853  INFO 9732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 23:35:47.855  INFO 9732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-05-03 23:35:48.282  INFO 9732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03 23:35:48.283  INFO 9732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2821 ms
+2023-05-03 23:35:50.138  INFO 9732 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-03 23:35:51.379  INFO 9732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-03 23:35:51.524  INFO 9732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 23:35:51.560  INFO 9732 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 6.9 seconds (JVM running for 9.058)
+2023-05-03 23:35:51.755  INFO 9732 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 23:35:51.756  INFO 9732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 23:35:51.758  INFO 9732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-03 23:35:51.888  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:35:52.199  INFO 9732 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 23:35:52.854  INFO 9732 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 23:35:53.032  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:36:11.476  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:36:11.507  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:36:56.809  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:36:56.833  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:37:11.683  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:37:11.743  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:40:39.086  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
+2023-05-03 23:40:39.125  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2023-05-03 23:40:42.020  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:40:42.066  INFO 9732 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:41:19.628  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:41:19.661  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:45:36.828  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2023-05-03 23:45:36.838  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : picture
+2023-05-03 23:45:39.096  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/archives', ip='127.0.0.1', classMethod='com.xrp.blog.controller.ArchiveShowController.toArchives', args=[{}]}
+2023-05-03 23:45:39.132  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : archives
+2023-05-03 23:45:41.483  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/tags/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, -1, {}]}
+2023-05-03 23:45:41.510  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : tags
+2023-05-03 23:45:42.606  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2023-05-03 23:45:42.647  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : types
+2023-05-03 23:45:44.070  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:45:44.095  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:46:01.972  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
+2023-05-03 23:46:02.076  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:46:09.336  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[1, {}]}
+2023-05-03 23:46:09.350  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:46:10.340  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/comments/1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[1, {}]}
+2023-05-03 23:46:10.342  INFO 9732 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2023-05-03 23:46:20.646  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/tags/2', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TagsShowController.toTypes', args=[1, 2, {}]}
+2023-05-03 23:46:20.659  INFO 9732 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : tags
+2023-05-03 23:46:26.440  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/blog/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[3, {}]}
+2023-05-03 23:46:26.450  INFO 9732 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:46:48.545  INFO 9732 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:46:48.571  INFO 9732 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:52:58.893  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:52:58.908  INFO 9732 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:53:01.068  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/blog/5', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[5, {}]}
+2023-05-03 23:53:01.087  INFO 9732 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:58:52.458  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2023-05-03 23:58:52.484  INFO 9732 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2023-05-03 23:58:56.477  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/5', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[5, {}]}
+2023-05-03 23:58:56.492  INFO 9732 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
+2023-05-03 23:58:57.546  INFO 9732 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/comments/5', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[5, {}]}
+2023-05-03 23:58:57.550  INFO 9732 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : blog::commentList

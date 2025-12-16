@@ -1,0 +1,43 @@
+2025-07-03 08:10:22.175  INFO 20748 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 20748 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2025-07-03 08:10:22.179  INFO 20748 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2025-07-03 08:10:22.209  INFO 20748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 08:10:22.209  INFO 20748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 08:10:22.825  INFO 20748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-07-03 08:10:22.826  INFO 20748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-03 08:10:22.848  INFO 20748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-07-03 08:10:23.457  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-07-03 08:10:23.467  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-03 08:10:23.468  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2025-07-03 08:10:23.630  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-03 08:10:23.630  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1420 ms
+2025-07-03 08:10:24.361  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-07-03 08:10:24.724  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-03 08:10:24.763  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-03 08:10:24.771  INFO 20748 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 2.996 seconds (JVM running for 4.112)
+2025-07-03 08:10:30.404  INFO 20748 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-03 08:10:30.404  INFO 20748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-03 08:10:30.405  INFO 20748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-03 08:10:30.434  INFO 20748 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2025-07-03 08:10:30.488  INFO 20748 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-03 08:10:30.594  INFO 20748 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-03 08:10:30.682  INFO 20748 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2025-07-03 08:10:43.579  INFO 20748 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/blog/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[14, {}]}
+2025-07-03 08:10:43.668  INFO 20748 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : blog
+2025-07-03 08:10:44.038  INFO 20748 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/comments/14', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[14, {}]}
+2025-07-03 08:10:44.049  INFO 20748 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-07-03 08:11:00.112  INFO 20748 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/blog/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[4, {}]}
+2025-07-03 08:11:00.120  INFO 20748 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : blog
+2025-07-03 08:11:00.466  INFO 20748 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
+2025-07-03 08:11:00.468  INFO 20748 --- [http-nio-8080-exec-5] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-07-03 08:18:41.925  INFO 20748 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/blog/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[4, {}]}
+2025-07-03 08:18:41.934  INFO 20748 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : blog
+2025-07-03 08:18:42.277  INFO 20748 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
+2025-07-03 08:18:42.279  INFO 20748 --- [http-nio-8080-exec-9] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-07-03 08:25:37.367  INFO 20748 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/blog/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.blog', args=[4, {}]}
+2025-07-03 08:25:37.376  INFO 20748 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : blog
+2025-07-03 08:25:37.666  INFO 20748 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Request: {url='/comments/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.CommentController.toComments', args=[4, {}]}
+2025-07-03 08:25:37.669  INFO 20748 --- [http-nio-8080-exec-10] com.xrp.blog.config.LogAspect            : Result : blog::commentList
+2025-07-03 16:06:42.408  WARN 20748 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h30m41s288ms485µs800ns).
+2025-07-03 18:58:55.955  WARN 20748 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h47m13s479ms421µs400ns).
+2025-07-03 18:59:02.514  INFO 20748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-03 18:59:02.518  INFO 20748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

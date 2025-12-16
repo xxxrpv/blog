@@ -1,0 +1,39 @@
+2024-04-23 10:10:24.227  INFO 23380 --- [restartedMain] com.xrp.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_333 on MI with PID 23380 (D:\Codes\web\blog-mybatis\target\classes started by xxxrp in D:\Codes\web\blog-mybatis)
+2024-04-23 10:10:24.230  INFO 23380 --- [restartedMain] com.xrp.blog.BlogApplication             : The following 1 profile is active: "dev"
+2024-04-23 10:10:24.262  INFO 23380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23 10:10:24.262  INFO 23380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23 10:10:24.743  INFO 23380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-23 10:10:24.745  INFO 23380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-23 10:10:24.764  INFO 23380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-04-23 10:10:25.272  INFO 23380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-04-23 10:10:25.279  INFO 23380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23 10:10:25.279  INFO 23380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-04-23 10:10:25.388  INFO 23380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23 10:10:25.389  INFO 23380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2024-04-23 10:10:26.063  INFO 23380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-04-23 10:10:26.426  INFO 23380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23 10:10:26.453  INFO 23380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-23 10:10:26.460  INFO 23380 --- [restartedMain] com.xrp.blog.BlogApplication             : Started BlogApplication in 2.563 seconds (JVM running for 3.258)
+2024-04-23 10:10:35.248  INFO 23380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23 10:10:35.248  INFO 23380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23 10:10:35.249  INFO 23380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23 10:10:37.908  INFO 23380 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2024-04-23 10:10:37.957  INFO 23380 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23 10:10:38.049  INFO 23380 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23 10:10:38.114  INFO 23380 --- [http-nio-8080-exec-2] com.xrp.blog.config.LogAspect            : Result : index
+2024-04-23 10:10:42.645  INFO 23380 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[2, {}]}
+2024-04-23 10:10:42.672  INFO 23380 --- [http-nio-8080-exec-1] com.xrp.blog.config.LogAspect            : Result : index
+2024-04-23 10:10:47.255  INFO 23380 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Request: {url='/types/-1', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, -1, {}]}
+2024-04-23 10:10:47.273  INFO 23380 --- [http-nio-8080-exec-6] com.xrp.blog.config.LogAspect            : Result : types
+2024-04-23 10:10:51.621  INFO 23380 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Request: {url='/types/3', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, 3, {}]}
+2024-04-23 10:10:51.642  INFO 23380 --- [http-nio-8080-exec-3] com.xrp.blog.config.LogAspect            : Result : types
+2024-04-23 10:10:52.446  INFO 23380 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/types/4', ip='127.0.0.1', classMethod='com.xrp.blog.controller.TypeShowController.toTypes', args=[1, 4, {}]}
+2024-04-23 10:10:52.455  INFO 23380 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : types
+2024-04-23 10:10:55.687  INFO 23380 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2024-04-23 10:10:55.687  INFO 23380 --- [http-nio-8080-exec-4] com.xrp.blog.config.LogAspect            : Result : about
+2024-04-23 10:10:56.140  INFO 23380 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/pictures', ip='127.0.0.1', classMethod='com.xrp.blog.controller.PictureShowController.toPictures', args=[{}]}
+2024-04-23 10:10:56.147  INFO 23380 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : picture
+2024-04-23 10:10:59.222  INFO 23380 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Request: {url='/about', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toAbout', args=[]}
+2024-04-23 10:10:59.223  INFO 23380 --- [http-nio-8080-exec-8] com.xrp.blog.config.LogAspect            : Result : about
+2024-04-23 10:11:01.305  INFO 23380 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Request: {url='/', ip='127.0.0.1', classMethod='com.xrp.blog.controller.IndexController.toIndex', args=[1, {}]}
+2024-04-23 10:11:01.335  INFO 23380 --- [http-nio-8080-exec-7] com.xrp.blog.config.LogAspect            : Result : index
